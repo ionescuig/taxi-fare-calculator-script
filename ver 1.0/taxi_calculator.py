@@ -9,7 +9,6 @@
 # ==============================================================================
 
 """
-work in progress...
 A calculator for the fare for a Hackney Carriage (Black Cab) in Plymouth, UK.
 The fare is not fixed, is affected by the traffic and tolls (ex: for Cornwall),
 for 1-2 people (each extra passenger after the second passenger: 20p).
