@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # title           :taxi_calculator.py
-# description     :A calculator for the fare for a Hackney Carriage (Black Cab) in Plymouth, UK.
+# description     :A calculator for the fare for a Hackney Carriage (Black Cab) in Plymouth, UK
 # author          :Gabriel Ionescu
-# date            :2018/06/11
+# date            :2018/09/12
 # version         :1.0
 # notes           :
-# python_version  :3.6.3
+# python_version  :3.6.6
 # ==============================================================================
 
 """
@@ -55,7 +55,7 @@ from time import strftime
 
 def calculate(date, miles, no_of_people, toll):
     """
-    calculates for a certain hour and certain miles
+    Calculates the fare for a certain date and hour
     """
 
     # fixed data
@@ -65,7 +65,6 @@ def calculate(date, miles, no_of_people, toll):
     tariff_4 = (4.5, 0.45, 0.45, 0.45)
     tariff_5 = (6.0, 0.60, 0.60, 0.60)
     tariff_choice = ()
-    # fare = 0
     bank_holidays = ('03/30/18', '04/02/18', '05/07/18', '05/28/18', '08/27/18',
                      '04/19/19', '04/22/19', '05/06/19', '05/27/19', '08/26/19',
                      '04/10/20', '04/13/20', '05/04/20', '05/25/20', '08/31/20', '12/28/20')
